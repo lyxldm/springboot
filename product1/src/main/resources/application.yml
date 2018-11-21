@@ -1,0 +1,10 @@
+server:
+  port: 8881
+
+dubbo:
+  application:
+    name: Product1Application
+  registry:
+    address: zookeeper://39.106.211.119:2181
+  scan:
+    base-packages: lyx.service.*

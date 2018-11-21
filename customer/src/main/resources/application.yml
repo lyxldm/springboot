@@ -1,0 +1,8 @@
+server:
+  port: 8882
+
+dubbo:
+  application:
+    name: CustomerApplication
+  registry:
+    address: zookeeper://39.106.211.119:2181
