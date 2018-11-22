@@ -1,0 +1,11 @@
+server:  
+    port: 8881
+    context-path: /
+    session-timeout: 30  
+    tomcat.max-threads: 450  
+    tomcat.uri-encoding: UTF-8
+  
+spring:
+    application:
+          name: Product1Application
+
