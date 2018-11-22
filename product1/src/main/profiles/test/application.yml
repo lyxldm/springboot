@@ -1,11 +1,9 @@
 server:
     port: 8881
-    context-path: /product
+    #context-path: /product
     session-timeout: 30
     tomcat.max-threads: 450
     tomcat.uri-encoding: UTF-8
-
-
 dubbo:
   application:
     name: Product1Application
@@ -13,7 +11,6 @@ dubbo:
     address: zookeeper://39.106.211.119:2181
   scan:
     base-packages: lyx.service.*
-
 
 spring:
   redis:
@@ -24,8 +21,6 @@ spring:
          username: root
          password: 20130204
          url: jdbc:mysql://39.107.70.161:3306/guomei?serverTimezone=UTC
-
-
 mybatis:
     config-location: classpath:mybatis/config/SqlMapConfig.xml
     mapper-locations: classpath:mybatis/*.xml
